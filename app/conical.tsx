@@ -36,7 +36,7 @@ export default function Rectangle(){
 
             <TextInput 
             style={styles.textInput} 
-            placeholder="กรอกความของเส้นยอดกรวย" 
+            placeholder="กรอกความยาวของเส้นยอดกรวย" 
             placeholderTextColor="gray"
             value={length.toString()}
             onChangeText={(l) => setlength(Number(l))}
