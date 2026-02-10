@@ -8,9 +8,9 @@ export default function App(){
     return(
         <View style={styles.box}>
             <Text style={styles.textTitle}>HOME</Text>
-            <Button title="ไปหน้า 2" onPress={() => router.navigate('/rectangle')}/>
+            <Button title="คำนวณพื้นที่สี่เหลี่ยม" onPress={() => router.navigate('/rectangle')}/>
 
-                 <Button title="ไปหน้า 3" onPress={() => router.navigate('/conical')}/>
+                 <Button title="คำนวณพื้นที่ผิวทรงกรวย" onPress={() => router.navigate('/conical')}/>
         </View>
     )
 }
